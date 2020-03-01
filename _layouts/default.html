@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?4f956d9583cb78c1cd49664da67bc68d";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<html lang="en">
+
+{% include head.html %}
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+
+    <!-- Image to hack wechat -->
+    <img src="/img/apple-touch-icon.png" width="0" height="0" />
+    <!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
