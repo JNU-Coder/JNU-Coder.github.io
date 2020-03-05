@@ -1,12 +1,14 @@
 ---
 layout:     post
-title:      GitHub使用总结与心得
-subtitle:  一些总结
-date:       2020-03-3
-author:    刘志雄/JNU-Coder
-header-img: img/post-bg-ios9-web.jpg
-catalog: true		 
-		 
+title:     GitHub使用总结与心得
+subtitle:   一些总结
+date:       2020-03-03
+author:     刘志雄
+header-img: img/post-bg-ios10.jpg
+catalog: true
+tags:
+    - Git
+    - GitHub
 ---
 # 摘要（附GitHub链接：https://github.com/JNU-Coder ）
 其实在大一结束时我就注册了一个GitHub的账号，用来管理程序设计大作业的有关代码，不过暑假过后就将其弃置一旁，没有碰过了。时隔半年，如今又重新用学校的企业邮箱注册了一个GitHub账号。在实验课后的这两天，我了解了git的使用方法，掌握了使用git命令建立、拉取、更新、删除repositories，建立、上传文件以及回退到历史版本的方法。同时我也掌握了GitHub Desktop的具体用法，同时也熟悉了用Visual Studio、PyCharm、Idea等常用IDE通过GitHub管理代码的方法。这让我对GitHub又有了一个新的认识，相信以后能够更好地利用这一工具！
